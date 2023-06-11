@@ -25,11 +25,11 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ml-[70px]">
           <img
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="https://th.bing.com/th/id/OIP.UCxthHissS16WQb5jc2RGQHaE8?w=248&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"
           />
         </div>
       </div>
