@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide {
+    0% {
+      transform: translateX(350%);
+    }
+    100% {
+      transform: translateX(-350%);
+    }
+  }
+  
+  .slide-in-text {
+    animation: slide 20s linear infinite;
+  }
