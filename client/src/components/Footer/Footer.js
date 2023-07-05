@@ -7,20 +7,60 @@ const Footer = () => {
         <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
           <div class="lg:w-1/6 md:w-1/2 w-full px-4">
             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">
-              CATEGORIES
+              Buying & Selling
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-400 hover:text-white">First Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Find a Car
+                </a>
               </li>
               <li>
-                <a class="text-gray-400 hover:text-white">Second Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Find a Dealer
+                </a>
               </li>
               <li>
-                <a class="text-gray-400 hover:text-white">Third Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Car Reviews & Ratings
+                </a>
               </li>
               <li>
-                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Sell Your Car
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">
+              Explore Our Brand
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  NewCars.com
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  DealerRater
+                </a>
+                <div class="lg:w-1 md:w-1 w-full px-0.01">
+                  <h3 class="title-font font-medium text-white tracking-widest text-sm mb-3">
+                    Dealers
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Dealer Login
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Dealer Inspire
+                </a>
               </li>
             </nav>
           </div>
@@ -30,35 +70,24 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-400 hover:text-white">First Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  First Link
+                </a>
               </li>
               <li>
-                <a class="text-gray-400 hover:text-white">Second Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Second Link
+                </a>
               </li>
               <li>
-                <a class="text-gray-400 hover:text-white">Third Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Third Link
+                </a>
               </li>
               <li>
-                <a class="text-gray-400 hover:text-white">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav class="list-none mb-10">
-              <li>
-                <a class="text-gray-400 hover:text-white">First Link</a>
-              </li>
-              <li>
-                <a class="text-gray-400 hover:text-white">Second Link</a>
-              </li>
-              <li>
-                <a class="text-gray-400 hover:text-white">Third Link</a>
-              </li>
-              <li>
-                <a class="text-gray-400 hover:text-white">Fourth Link</a>
+                <a class="text-gray-400 cursor-pointer hover:text-white">
+                  Fourth Link
+                </a>
               </li>
             </nav>
           </div>
@@ -136,7 +165,7 @@ const Footer = () => {
               />
             </div>
             <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-              Button
+              Done
             </button>
             <p class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 text-center sm:text-left">
               Bitters chicharrones fanny pack

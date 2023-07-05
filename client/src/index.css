@@ -14,3 +14,10 @@
   .slide-in-text {
     animation: slide 20s linear infinite;
   }
+  .cont {
+    background-image: url('https://www.tuningblog.eu/wp-content/uploads/2023/03/Toyota-Supra-MK4-1.000-HP-Tuning-JDM-4.jpg');
+    background-size: cover; /* Adjust to your needs */
+    /* Additional styles */
+  }
+
+  

@@ -1,39 +1,39 @@
 import React from "react";
 
+
 const Home = () => {
   return (
-    <section class="text-gray-600 body-font">
+    <div>
+   <div className="cont"> 
+    <section class="text-gray-400 body-font" >
       <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            Before they sold out
-            <br class="hidden lg:inline-block" />
-            readymade gluten
+            Toyota Supra MK4
           </h1>
           <p class="mb-8 leading-relaxed">
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+          The Supra MK4 was introduced as the fourth generation of the Supra lineup, succeeding the MK3 model. 
+          In terms of performance, the Supra MK4 was known for its acceleration and top speed capabilities. 
+          It offered exhilarating performance on both the street and the track, with quick acceleration and a top speed that could reach well over 300 km/h (186 mph).
           </p>
           <div class="flex justify-center">
             <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Button
-            </button>
-            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-              Button
+             Get started
             </button>
           </div>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ml-[70px]">
-          <img
-            class="object-cover object-center rounded"
-            alt="hero"
-            src="https://th.bing.com/th/id/OIP.UCxthHissS16WQb5jc2RGQHaE8?w=248&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7"
-          />
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ml-[300px]">
+          
         </div>
       </div>
     </section>
+    </div>
+    <div>
+ 
+    </div>
+    </div>
+    
+    
   );
 };
 
