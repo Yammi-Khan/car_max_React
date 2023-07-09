@@ -34,7 +34,8 @@ const Category = () => {
           </div>
           <div class="flex-grow pl-6">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-2">The Catalyzer</h2>
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.</p>
+            <p class="leading-relaxed text-mdfklb'pdfgokn
+            [fhkn v, ,fxmgb ]fg nfsg fg,b \gxh=-l fgxmbase">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug VHS try-hard ugh iceland kickstarter tumblr live-edge tilde.</p>
             <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>

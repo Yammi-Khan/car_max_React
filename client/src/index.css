@@ -11,13 +11,11 @@
     }
   }
   
-  .slide-in-text {
+  /* .slide-in-text {
     animation: slide 20s linear infinite;
-  }
+  } */
   .cont {
-    background-image: url('https://t4.ftcdn.net/jpg/04/82/34/79/240_F_482347998_Vy8yvFZ2nIQTIH4QJDg7CkZJIVsGXwaj.jpg');
-    background-size: cover; /* Adjust to your needs */
+    background-image: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
     /* Additional styles */
   }
-
-  

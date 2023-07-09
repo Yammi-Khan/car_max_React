@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom'
 import Contact from './components/Contact/Contact'
 import About from './components/About_us/About'
 import Category from './components/category/category'
+import { Carousel } from 'bootstrap'
 
 const App = () => {
     return (
@@ -24,5 +25,6 @@ const App = () => {
         </div>
     )
 }
+
 
 export default App
