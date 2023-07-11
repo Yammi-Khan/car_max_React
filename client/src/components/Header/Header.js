@@ -36,10 +36,8 @@ const Header = () => {
             <Link to="/category" className="mr-5 cursor-pointer hover:text-yellow-500">Categories</Link>
             <Link to="/contact" className="mr-5 cursor-pointer hover:text-yellow-500">Contact us</Link>
             <Link to="/about" className="mr-5 cursor-pointer hover:text-yellow-500">About</Link>
+            <Link to="/signin" className="mr-5 cursor-pointer hover:text-yellow-500">Sign In</Link>
           </nav>
-          <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-            Sign in/Sign Up
-          </button>
         </div>
       </header>
     </>

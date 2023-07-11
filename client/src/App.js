@@ -7,7 +7,7 @@ import { Route, Routes } from 'react-router-dom'
 import Contact from './components/Contact/Contact'
 import About from './components/About_us/About'
 import Category from './components/category/category'
-import { Carousel } from 'bootstrap'
+import Signin from './components/Signin/Signin'
 
 const App = () => {
     return (
@@ -19,6 +19,7 @@ const App = () => {
             <Route path="/contact" element={<Contact/>}/>
             <Route path="/about" element={ <About/>}/>
             <Route path="/category" element={<Category/>}/>
+            <Route path='/signin' element={<Signin/>}/>
             </Routes>
             <Footer/>
             
