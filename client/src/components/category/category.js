@@ -1,7 +1,8 @@
-import React from 'react';
+
 
 
 const Category = () => {
+
   return (
 
     <section className="bg-slate-200 text-black font-serif body-font">
@@ -12,7 +13,7 @@ const Category = () => {
             <div className="flex-grow pl-6">
               <h2 className="text-gray-900 sm:text-xl title-font font-bold mb-2">LUXURY/SEDAN CARS</h2>
               <img src="http://1.bp.blogspot.com/-nIscOkmR1_k/TW2eV9ySLgI/AAAAAAAACbY/vzn5tlDA09A/s1600/2010_Infiniti-G37_Sedan_japanese-car-photyos_1.jpg" alt="sedans" />
-              <button className="mt-3 text-black font-mono inline-flex items-center curser-pointer">EXPLORE
+              <button  className="mt-3 text-black font-mono inline-flex items-center curser-pointer">EXPLORE
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>

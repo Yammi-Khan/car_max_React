@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  return (
+  return ( 
     <>
       <header className="text-white bg-gray-700 body-font">
         <div className="bg-[#8a4af3] text-end text-white p-1 text-sm">

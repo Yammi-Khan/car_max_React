@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Footer = () => {
+  
+  const [feedback, setFeedback] = useState('');
+
+  const handleChange = (event) => {
+    setFeedback(event.target.value);
+  };
+
   const handleClick = () => {
-    alert("Your feedback has been submitted.");
+    console.log(feedback);
+   alert("Your feedback is submitted !")
+   setFeedback('')
+ 
   };
 
   return (
@@ -14,7 +24,9 @@ const Footer = () => {
               <label htmlFor="footer-field" className="leading-7 text-sm font-serif font-semibold text-black">
                 Feedback
               </label>
-              <input
+              <input 
+              value={feedback }
+              onChange={handleChange}
                 type="text"
                 id="footer-field"
                 name="footer-field"
@@ -28,8 +40,8 @@ const Footer = () => {
             >Submit
             </button>
           </div>
-          <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-            <a className="text-blue-500" href="https://www.facebook.com/your-facebook-url" target="_blank" rel="noopener noreferrer">
+         <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+             <a className="text-blue-500" href="https://www.facebook.com/your-facebook-url" target="_blank" rel="noopener noreferrer">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
