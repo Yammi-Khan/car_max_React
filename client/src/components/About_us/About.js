@@ -20,11 +20,9 @@ const About = () => {
 
               />
               <p class="leading-relaxed">
-                building interactive and responsive user interfaces.
+                Building interactive and responsive user interfaces.
                 Continuously learning and staying updated with the latest trends
-                and best practices in React development, Faizan is eager to
-                contribute to projects and deliver high-quality React-based
-                solutions.
+                and best practices in React development.
               </p>
               <span class="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
               <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">
@@ -41,7 +39,7 @@ const About = () => {
                 src={anees}
               />
               <p class="leading-relaxed">
-                Building Logics and bringing the website to life. Fawad is a Backend Developer that has urge to learn more about building projects on react.
+                Building Logics and bringing the website to life.Anees is a FrontEnd Developer that has urge to learn more about building projects on react.
               </p>
               <span class="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
               <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">

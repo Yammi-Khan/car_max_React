@@ -1,11 +1,11 @@
 export const data = [
     {
       "id": 1,
-      "title": "Audi R8",
+      "title": "Audi RS-8",
       "price":1500000 ,
       "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
       "category": "Sport Car",
-      "image": "https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      "image": "https://i.pinimg.com/564x/f8/64/a8/f864a873f637ae997b7aedac19332b56.jpg",
       "rating": {
         "rate": 3.9,
         "count": 120
@@ -109,7 +109,7 @@ export const data = [
     },
     {
       "id": 10,
-      "title": "Toyota Corolla Altis GR-S",
+      "title": "Toyota Corolla Altis GR",
       "price": 36000,
       "description": "Easy upgrade for faster boot-up, shutdown, application load, and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS, and application.)",
       "category": "Sedan Car",
@@ -142,7 +142,71 @@ export const data = [
         "rate": 4.8,
         "count": 400
       }
+    },
+    {
+      "id": 13,
+      "title": "2022 Infininti Q60",
+      "price": "470000",
+      "description": "Expand your PS4 gaming experience. Play anywhere Fast and easy setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "Sedan Car",
+      "image": "https://i.pinimg.com/564x/c3/bc/0b/c3bc0b699aab4fde2c4756ca555a98b1.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 14,
+      "title": "2017 Audi A3-RS",
+      "price": "650000",
+      "description": "Expand your PS4 gaming experience. Play anywhere Fast and easy setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "Sedan Car",
+      "image": "https://i.pinimg.com/564x/fa/25/b7/fa25b7efa935f066d4c5b741f848b77b.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 15,
+      "title": "Corolla Indus(E100)",
+      "price": "12000",
+      "description": "Expand your PS4 gaming experience. Play anywhere Fast and easy setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "Sedan Car",
+      "image": "https://i.pinimg.com/564x/96/bf/c5/96bfc5c1c72cab3aca76fa1525116b8e.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 16,
+      "title": "Mercedes G63",
+      "price":"3000000",
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "SUV Car",
+      "image": "https://i.pinimg.com/564x/4c/11/79/4c117980da3923f565458022c07ad68c.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 17,
+      "title": "Land Cruiser LC300",
+      "price":"2000000",
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "SUV Car",
+      "image": "https://i.pinimg.com/564x/e0/97/80/e09780827c4d9a03c0fb1be8b72e1868.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
     }
+  
+    
+    
+    
     
   ]
   
