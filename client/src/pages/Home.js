@@ -18,7 +18,7 @@ const Home = () => {
           </h1>
           <br />
           <div class="pd-10px flex justify-center">
-            <Link to= "/Register" class="inline-flex text-white bg-teal-950 font-bold border-0 py-2 px-6 focus:outline-none hover:bg-cyan-400 rounded text-lg">
+            <Link to= "/Register" class="inline-flex text-white bg-orange-800 font-bold border-0 py-1 px-6 focus:outline-none hover:bg-cyan-400 rounded text-lg">
               Get Registered !
             </Link>
           </div>

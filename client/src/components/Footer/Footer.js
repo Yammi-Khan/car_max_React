@@ -16,7 +16,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="text-white bg-gray-700 body-font">
+    <footer className="text-white bg-gray-800 body-font">
       <div className="border-t border-gray-200">
         <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
           <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
@@ -48,7 +48,8 @@ const Footer = () => {
                 strokeLinejoin="round"
                 strokeWidth="2"
                 className="w-5 h-5"
-                viewBox="0 0 24 24"
+                viewBox="0 5 24 24"
+                
               >
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
