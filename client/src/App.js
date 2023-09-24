@@ -18,6 +18,7 @@ import Carts from './pages/Carts'
 const App = () => {
     const [products, setProducts] = useState(data);
     const [cart, setCart] = useState([]);
+    const [example, setExample]= useState();
     
     
     const addToCart = (product) => {
