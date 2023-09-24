@@ -37,6 +37,7 @@ const Header = () => {
             <Link to="/contact" className="mr-5 cursor-pointer hover:text-yellow-500">Contact us</Link>
             <Link to="/signin" className="mr-5 cursor-pointer hover:text-yellow-500">Sign In</Link>
             <Link to="/about" className="mr-5 cursor-pointer hover:text-yellow-500">About</Link>
+            <Link to="/cart" className="mr-5 cursor-pointer hover:text-yellow-500">Cart</Link>
           </nav>
         </div>
       </header>

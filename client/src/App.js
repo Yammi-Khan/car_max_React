@@ -11,10 +11,22 @@ import Luxury from './components/Luxury/Luxury'
 import SUV from './components/SUV/SUV'
 import Sport from './components/Sport/Sport'
 import Register from './components/Register/register';
+import React, { useState } from 'react';
+import {data} from './api/api'
+import Carts from './pages/Carts'
 
 const App = () => {
- 
+    const [products, setProducts] = useState(data);
+    const [cart, setCart] = useState([]);
     
+    
+    const addToCart = (product) => {
+        setCart([...cart, product]);
+      };
+
+    const clearCart = () =>{
+        setCart([])
+    }
     return (
 
         <div>
@@ -23,7 +35,7 @@ const App = () => {
             <Header/>
           
             <Routes>
-            <Route path="/" element={<Home />}/>
+            <Route path="/" element={<Home products={products} addToCart={addToCart}/>}/>
             <Route path='/Sport' element={<Sport/>}/>
             <Route path='/Register' element={<Register/>}/>
             <Route path='/SUV' element={<SUV/>}/>
@@ -32,6 +44,7 @@ const App = () => {
             <Route path="/about" element={ <About/>}/>
             <Route path="/category" element={<Category/>}/>
             <Route path='/signin' element={<Signin/>}/>
+            <Route path='/cart' element={<Carts cart={cart} clearCart={clearCart}/>}/>
             </Routes>
 
 
